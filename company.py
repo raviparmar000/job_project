@@ -1,5 +1,4 @@
 from db import get_connection
-
 def company(name):
     conn = get_connection()
     cursor=conn.cursor()

@@ -5,6 +5,6 @@ def get_connection():
         host="localhost",
         user="root",
         password="parmar@123",
-        database="company_db"
+        database="job"
     )
     return conn
