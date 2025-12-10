@@ -1,5 +1,5 @@
 from db import get_connection
-def company(name):
+def add_company(name):
     conn = get_connection()
     cursor=conn.cursor()
     query = "insert into company (name) values (%s)"
